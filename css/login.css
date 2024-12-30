@@ -1,0 +1,125 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #1e1e2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Container styling */
+.login-container {
+    background-color: #29293d;
+    padding: 30px 40px;
+    border-radius: 50px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    text-align: center;
+}
+
+/* Form title */
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+/* Input box styling */
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 45px 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #3a3a52;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.input-box input:focus {
+    background: #484864;
+    border: 1px solid #ff5c5c;
+}
+
+.input-box i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2rem;
+}
+
+/* Remember and forget */
+.remember-forget {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.remember-forget a {
+    color: #ff5c5c;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.remember-forget a:hover {
+    color: #ff7575;
+}
+
+/* Button styling */
+.btn {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #ff5c5c;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background: #ff4040;
+    transform: scale(1.03);
+}
+
+/* Register link */
+.register-link {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.register-link a {
+    color: #ff5c5c;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.register-link a:hover {
+    color: #ff7575;
+}

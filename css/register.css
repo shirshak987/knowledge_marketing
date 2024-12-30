@@ -1,0 +1,119 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #1e1e2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Container styling */
+.register-container {
+    background-color: #29293d;
+    padding: 30px 40px;
+    border-radius: 50px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    text-align: center;
+}
+
+/* Form title */
+.register-container h1 {
+    margin-bottom: 20px;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Input box styling */
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Ensure the input box has proper padding to accommodate the icon */
+.input-box input {
+    width: 100%;
+    padding: 10px 45px 10px 15px;  /* Extra padding on the right to make space for the icon */
+    border: none;
+    border-radius: 5px;
+    background: #3a3a52;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+/* Placeholder styling */
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Input focus styling */
+.input-box input:focus {
+    background: #484864;
+    border: 1px solid #ff5c5c;
+}
+
+/* Icon positioning */
+.input-box i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2rem;
+}
+
+/* Error message styling */
+.error-message {
+    color: #ff5c5c; /* Red color for error messages */
+    font-size: 0.9rem;
+    margin-top: 2px;
+    display: block;
+    text-align: left;
+}
+
+/* Button styling */
+.btn {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #ff5c5c;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background: #ff4040;
+    transform: scale(1.03);
+}
+
+/* Login link */
+.login-link {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.login-link a {
+    color: #ff5c5c;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.login-link a:hover {
+    color: #ff7575;
+}
